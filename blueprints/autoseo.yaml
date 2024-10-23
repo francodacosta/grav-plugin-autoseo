@@ -7,52 +7,13 @@ form:
           title: SEO
 
           fields:
-            header.show_breadcrumbs:
+            header.autoseo.enabled:
               type: toggle
-              label: FOO
-              highlight: 0
-              default: 0
+              label: PLUGINS.AUTO_SEO.ENABLE_PLUGIN
+              highlight: 1
+              default: 1
               options:
                 1: PLUGIN_ADMIN.ENABLED
                 0: PLUGIN_ADMIN.DISABLED
               validate:
                 type: bool
-              "og:title": Blog Post Title
-            header.metadata.og:type:
-              type: text
-              label: og:type
-            header.metadata.og:description:
-              type: text
-              label: og:description
-            header.metadata.og:url:
-              type: text
-              label: og:url
-            header.metadata.og:site_name:
-              type: text
-              label: og:site_name
-            header.metadata.og:locale:
-              type: text
-              label: og:locale
-            header.metadata.og:image:
-              type: filepicker
-              preview_images: true
-              label: og:image
-            header.metadata.twitter:card:
-              type: text
-              label: twitter:card
-            header.metadata.twitter:site:
-              type: text
-              label: twitter:site
-            header.metadata.twitter:title:
-              type: text
-              label: twitter:title
-            header.metadata.twitter:description:
-              type: text
-              label: twitter:description
-            header.metadata.twitter:image:
-              type: filepicker
-              preview_images: true
-              label: twitter:image
-            header.metadata.twitter:creator:
-              type: text
-              label: twitter:creator

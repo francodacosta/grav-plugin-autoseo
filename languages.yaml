@@ -6,6 +6,7 @@ en:
       PLUGIN_STATUS: Plugin status
       DEFAULT_CONFIG: Default values for the plugin configuration
       PLUGIN_DEPENDENCY_FAILED: Auto SEO Plugin failed to load. Composer dependencies not met.
+      ENABLE_PLUGIN: Enable Auto SEO Plugin
       TITLE:
         APPEND_SITE_TITLE:
           LABEL: Append the site title to the "title" meta 
@@ -38,6 +39,7 @@ fr:
       PLUGIN_STATUS: Etat du plugin
       DEFAULT_CONFIG: Valeurs par défaut pour la configuration du plugin
       PLUGIN_DEPENDENCY_FAILED: le plug-in Auto SEO n'a pas pu être chargé. Les dépendances de Composer ne sont pas remplies.
+      ENABLE_PLUGIN: Activer le plugin Auto SEO Plugin
       TITLE:
         APPEND_SITE_TITLE:
           LABEL: Ajouter le titre du site à la méta "titre"
