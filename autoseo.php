@@ -228,6 +228,8 @@ class AutoSeoPlugin extends Plugin
     }
 
     private function cleanMarkdown($text){
+        ini_set("pcre.backtrack_limit", "10000000"); 
+        
         $rules = array (
             '/(#+)(.*)/'                             => '\2',  // headers
             '/(&lt;|<)!--\n((.*|\n)*)\n--(&gt;|\>)/' => '',    // comments
