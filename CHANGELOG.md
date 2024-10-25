@@ -1,3 +1,9 @@
+# v1.7.2
+## 25/10/2024
+
+1. [](#bugfix)
+    * pcre.backtrack_limit to 10000000, should fix (#4).
+
 # v1.7.1
 ## 10/10/2024
 
