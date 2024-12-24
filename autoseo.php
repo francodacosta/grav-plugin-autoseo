@@ -154,9 +154,9 @@ class AutoSeoPlugin extends Plugin
     private function getMetaOpenGraph ($meta, $metaSite, $config, $cleanContent, $cleanTitle) {
         $page = $this->grav['page'];
 
-        $meta['og:sitename']['name']        = 'og:sitename';
-        $meta['og:sitename']['property']    = 'og:sitename';
-        $meta['og:sitename']['content']     = $this->config->get('site.title');
+        $meta['og:site_name']['name']        = 'og:site_name';
+        $meta['og:site_name']['property']    = 'og:site_name';
+        $meta['og:site_name']['content']     = $this->config->get('site.title');
         $meta['og:title']['name']           = 'og:title';
         $meta['og:title']['property']       = 'og:title';
         $meta['og:title']['content']        = $cleanTitle;
